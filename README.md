@@ -1,6 +1,10 @@
 # Leanwork Desafio Frontend
 
-Cadastro e listagem de usuários
+[![Netlify Status](https://api.netlify.com/api/v1/badges/87c30be0-e91d-458d-ab4e-e74a68d256d2/deploy-status)](https://app.netlify.com/sites/leanwork-frontend/deploys)
+
+> Página de cadastro e listagem de usuários desenvolvido com React.Js
+
+Acesse na integra clicando [aqui](https://leanwork-frontend.netlify.app/)
 
 # Recursos utilizados
 
