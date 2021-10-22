@@ -2,6 +2,8 @@
 
 Cadastro e listagem de usuários
 
+Acesse na integra clicando em: [![Netlify Status](https://api.netlify.com/api/v1/badges/87c30be0-e91d-458d-ab4e-e74a68d256d2/deploy-status)](https://app.netlify.com/sites/leanwork-frontend/deploys)
+
 # Recursos utilizados
 
 - Formik para tratamento dos dados de entrada
