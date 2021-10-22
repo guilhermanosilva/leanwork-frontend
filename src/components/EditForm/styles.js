@@ -7,6 +7,14 @@ const ContainerForm = styled(Form)`
   min-width: 35%;
   padding: 2rem;
 
+  @media (max-width: 992px) {
+    width: 70%;
+  }
+
+  @media (max-width: 768px) {
+    width: 95%;
+  }
+
   h1 {
     font-weight: normal;
     margin: 1.5rem 0 3rem;

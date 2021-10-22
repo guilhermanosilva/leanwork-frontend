@@ -13,6 +13,10 @@ const ContainerImage = styled.div`
   position: relative;
   width: 100%;
   height: 100%;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 const Image = styled.div`

@@ -4,7 +4,6 @@ const Container = styled.section`
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 100vw;
 
   h1 {
     font-size: 1.5rem;
@@ -21,9 +20,18 @@ const ContainerList = styled.ul`
   grid-template-columns: repeat(4, 1fr);
   justify-content: space-between;
   list-style: none;
-  margin: 1.5rem 0;
   padding: 1rem 4rem;
-  width: 100vw;
+
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 2rem;
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    padding: 1rem 0.5rem;
+    margin-bottom: 2rem;
+  }
 
   li {
     background-color: #ffffff;
@@ -46,7 +54,6 @@ const ContainerList = styled.ul`
       justify-content: center;
       margin-bottom: 1rem;
       padding: 0.5rem 1.5rem;
-      width: 100%;
 
       h3 {
         color: #efeeed;
@@ -58,13 +65,12 @@ const ContainerList = styled.ul`
       display: flex;
       flex: 1;
       flex-direction: column;
-      margin: 0 1.5rem;
+      margin: 0 1rem;
     }
 
     span {
       font-size: 0.875rem;
       margin-bottom: 0.25rem;
-
       i {
         color: #888888;
         width: 1.5rem;
